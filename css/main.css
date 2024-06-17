@@ -137,17 +137,6 @@ object {
 }
 
 
-
-
-
-/* Main Nav */
-
-
-
-
-
-
-
 /* General Styles */
 body {
     margin: 0;
@@ -202,41 +191,7 @@ object {
 
 
 
- 
- /* Box styling for general layout */
- 
- 
- /* Main Navigation Styling */
- #main-nav ul li a:hover {
-  color: #9a2018;
-}
 
-#main-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-#main-nav ul li a {
-  display: block;
-  padding: 10px 0 10px 0;
-  text-align: center;
-  color: #626262;
-}
-
-#main-nav ul li {
-  border-bottom: 1px solid #efefef;
-}
-
-
-
-#main-nav ul li:first-child {
-  border-top: 1px solid #efefef;
-}
-
-#main-nav ul li:last-child {
-  margin-bottom: 10px;
-}
  
  /* Footer Styling */
 .grid-con {
@@ -247,7 +202,7 @@ object {
 }
 
 footer {
-  background-color: #333;
+  background: url(../images/Wood-footer.png);
   color: white;
   padding: 20px 0;
 }
