@@ -79,14 +79,23 @@
     filter: drop-shadow(20px 6px 10px rgb(98, 97, 97));
 }
 
+.about-con {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.new-flavors {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 /* Hero Image */
 #hero img {
   width: 450px;
 }
 
-#bottle img {
-  width: 30%;
-  display: inline;  
+#product img {
+  width: 400px;
 }
 
 /* General Styles */
@@ -104,19 +113,23 @@ h2 {
   text-align: center;
   font-size: 30px;
   letter-spacing: -2px;
- text-shadow: 0px 3px hsl(0, 0%, 100%);
+  text-shadow: 0px 3px hsl(0, 0%, 100%);
   margin-bottom: 15px;
   color: rgb(67, 52, 21);
 }
 
 p {
-  color: #383636;
+  color: #38393A;
 }
 
 object {
-  width: 200%;
+  width: 100%;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
 /* General Styles */
 body {
     margin: 0;
@@ -156,6 +169,7 @@ object {
 }
 
 
+<<<<<<< HEAD
  
  /* Main Navigation Styling */
  #main-nav ul li a:hover {
@@ -186,10 +200,18 @@ object {
 #main-nav ul li:last-child {
   margin-bottom: 10px;
 }
+=======
+
+
+>>>>>>> main
  
  /* Footer Styling */
 
 footer {
+<<<<<<< HEAD
+=======
+  background: url(../images/Wood-footer.png);
+>>>>>>> main
   color: white;
   padding: 20px 0;
 }
