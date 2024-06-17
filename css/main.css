@@ -62,13 +62,12 @@
 }
 
 
-#logo {
-  width: 100%;
+#logo img {
+  width: 200px;
 }
 
 #enjoy-now img {
-  margin-top: 50px;
-  margin-right: 20px;
+  margin-top: 20px;
   width: 80px;
   cursor: pointer;
 }
@@ -175,17 +174,8 @@ footer {
   padding: 20px 0;
 }
 
-footer #logo {
-  width: 
-}
-
-
-
-#footer-contact-info {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
+footer #logo img {
+  width: 30%;
 }
 
 #footer-nav ul {
@@ -201,56 +191,30 @@ footer #logo {
   color: #433415;
 }
 
+#footer-nav ul li a:hover {
+  color: #E11F26;
+  font-size: larger;
+}
+
 #footer-social-icons {
-  display: block;
-  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-#footer-social-icons ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-#footer-social-icons ul li {
-  margin: 0 10px;
-}
-
-#footer-social-icons ul img {
-  width: 30px;
-  height: 30px;
+#footer-social-icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
 #footer-contact {
   text-align: center;
 }
 
-#footer-contact p {
-  margin: 0;
-}
-
-#footer {
+#privacy-policy {
   text-align: center;
-  margin-top: 20px;
 }
 
-#price-policy {
-  margin: 0;
-}
-
-/* Social Media Icons Styling */
-#footer-social-icons {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-}
-
-#footer-social-icons img {
-  width: 24px;
-  height: 24px;
-  margin: 0 10px;
-}
  /* Responsive Design */
  @media (max-width: 768px) {
    #main-nav ul {
