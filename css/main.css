@@ -1,5 +1,141 @@
-/* General Styles */
+/* Main Nav */
 
+/* Hamburger*/
+#main-nav label img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#main-nav, #burger-con {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  display: none;
+}
+
+#main-nav input, #burger-con {
+  display: none;
+}
+
+#main-nav input:checked ~ #burger-con {
+  display: block;
+}
+
+#main-nav input:checked ~ label img {
+  transform: rotate(90deg);
+}
+
+#main-nav, #burger-con:hover {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+
+#main-nav ul li a:hover {
+  color: #E11F26;
+  font-size: larger;
+}
+
+#main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#main-nav ul li a {
+  display: block;
+  text-align: start;
+  color: #767070;
+}
+
+#main-nav ul li {
+  border-bottom: 1px solid #38393A;
+}
+
+
+#main-nav ul li:first-child {
+  border-top: 1px solid #38393A;
+}
+
+#main-nav ul li:last-child {
+  margin-bottom: 8px;
+}
+
+
+#logo {
+  width: 100%;
+}
+
+#enjoy-now img {
+  margin-top: 50px;
+  margin-right: 20px;
+  width: 80px;
+  cursor: pointer;
+}
+
+#enjoy-now img:hover {
+    transform: rotate(30deg);
+    transition: all 1s ease-in-out;
+    filter: drop-shadow(20px 6px 10px rgb(98, 97, 97));
+}
+
+
+
+
+
+
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/Header-wood-450.png) no-repeat;
+}
+
+
+p, h1, h2, h3, h4, h5 {
+  line-height: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: -2px;
+ text-shadow: 0px 3px hsl(0, 0%, 100%);
+  margin-bottom: 15px;
+  color: rgb(67, 52, 21);
+}
+
+h3 {
+  text-decoration: underline;
+  font-size: 22px;
+  background-color:#b30606;
+  color: #fff;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 4px;
+}
+
+p {
+  color: #383636;
+}
+
+object {
+  width: 200%;
+}
+
+
+
+
+
+/* Main Nav */
+
+
+
+
+
+
+
+/* General Styles */
 body {
     margin: 0;
     padding: 0;
@@ -28,7 +164,7 @@ h2 {
    text-align: center;
    font-size: 30px;
    letter-spacing: -2px;
-	text-shadow: 0px 3px hsl(0, 0%, 100%);
+   text-shadow: 0px 3px hsl(0, 0%, 100%);
    margin-bottom: 15px;
    color: rgb(67, 52, 21);
 }
@@ -52,30 +188,10 @@ object {
 }
 
 
-/* General Grid Styles */
-html {
-   box-sizing: border-box;
- }
- 
- body {
-   margin: 0;
-   padding: 0;
-   font-family: 'Josefin Sans', sans-serif;
- }
- 
- /* Hidden class to hide elements */
- .hidden {
-   display: none;
- }
+
  
  /* Box styling for general layout */
- .box {
-   padding: 10px;
-   background-color: #f5f5f5;
-   border: 1px solid #ddd;
-   border-radius: 4px;
-   margin: 10px 0;
- }
+ 
  
  /* Main Navigation Styling */
  #main-nav ul li a:hover {
@@ -128,11 +244,6 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-}
-
-#logo {
-  display: flex;
-  align-items: center;
 }
 
 #footer-nav ul {
