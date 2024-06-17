@@ -109,16 +109,6 @@ h2 {
   color: rgb(67, 52, 21);
 }
 
-h3 {
-  text-decoration: underline;
-  font-size: 22px;
-  background-color:#b30606;
-  color: #fff;
-  border-radius: 30px;
-  padding-top: 10px;
-  padding-bottom: 4px;
-}
-
 p {
   color: #383636;
 }
@@ -161,9 +151,6 @@ img embed, object, video, picture {
     max-width: 100%;
  }
 
-
-
-
 h2 {
    text-align: center;
    font-size: 30px;
@@ -172,17 +159,6 @@ h2 {
    margin-bottom: 15px;
    color: rgb(67, 52, 21);
 }
-
-h3 {
-   text-decoration: underline;
-   font-size: 22px;
-   background-color:#b30606;
-   color: #fff;
-   border-radius: 30px;
-   padding-top: 10px;
-   padding-bottom: 4px;
-}
-
 p {
    color: #383636;
 }
@@ -191,11 +167,7 @@ object {
    width: 200%;
 }
 
-
-
- 
  /* Box styling for general layout */
- 
  
  /* Main Navigation Styling */
  #main-nav ul li a:hover {
@@ -219,8 +191,6 @@ object {
   border-bottom: 1px solid #efefef;
 }
 
-
-
 #main-nav ul li:first-child {
   border-top: 1px solid #efefef;
 }
@@ -230,21 +200,15 @@ object {
 }
  
  /* Footer Styling */
-.grid-con {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 20px;
-  padding: 20px;
-}
 
 footer {
-  background-color: #333;
   color: white;
   padding: 20px 0;
 }
 
-#logo {
-  width:20%;
+footer #logo {
+  width: 40%;
+  padding-left: 155px;
 }
 
 #footer-contact-info {
@@ -255,27 +219,22 @@ footer {
 }
 
 #footer-nav ul {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
-#footer-nav ul li {
-  margin-bottom: 10px;
-}
-
-#footer-nav ul a {
-  color: white;
-  text-decoration: none;
-}
-
-#footer-nav ul a:hover {
-  text-decoration: underline;
+#footer-nav ul li a {
+  display: block;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  color: #ffffff;
 }
 
 #footer-social-icons {
-  display: flex;
+  display: block;
   align-items: center;
+  padding-left: 150px;
 }
 
 #footer-social-icons ul {
@@ -295,7 +254,7 @@ footer {
 }
 
 #footer-contact {
-  text-align: right;
+  text-align: center;
 }
 
 #footer-contact p {
