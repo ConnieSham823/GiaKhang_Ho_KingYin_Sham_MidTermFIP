@@ -12,23 +12,32 @@
 </head>
 <body>
     <h1 class="hidden">Orbitz Maple Tea</h1>
-        <header class="grid-con">
-            <h2 class="hidden">Orbitz</h2>
-            <div id="logo" class="box col-span-full t-col-span-3 l-col-span-3">
-                <img src="images/Orbitz-logo_Final_Orbitz_flat_ORI.svg" alt="Orbitz logo">
+    <header class="grid-con">
+        <nav id="main-nav" class="col-start-1 col-end-4">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/Humburger-icon.png">
+            </label>
+
+            <div id="burger-con">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">Evolution</a></li>
+                    <li><a href="product.html">Maple Flavors</a></li>
+                    <li><a href="index.html">Contact Us</a></li>
+                </ul>
             </div>
-            <div>
-                <nav id="main-nav" class="box col-span-1 t-col-span-9 l-col-span-9">
-                    <h2 class="hidden">Main Navigation</h2>
-                        <ul>
-                            <a href="index.html">Home</a>
-                            <a href="#">Evolution</a>
-                            <a href="#">Maple flavors</a>
-                            <a href="contact.html">Contact Us</a>
-                        </ul>
-                </nav>
-            </div>
-        </header>
+        </nav>
+        
+        <div id="logo" class="col-start-1 col-end-2">
+            <img src="images/Orbitz-logo-300.png" alt="Orbitz logo">
+        </div>
+
+        <div id="enjoy-now" class="enjoy-now col-start-3 col-end-4">
+            <img src="images/Enjoy-now-icon.png" alt="Enjoy Now">
+        </div>
+</header>
     <section id="contact-hero-con" class="grid-con">
         <div id="contact-hero-heading-box" class="col-span-full">
             <h2 class="hero-img-h2"><span>Orbitz</span><br> Contact</h2>
