@@ -79,10 +79,15 @@
     filter: drop-shadow(20px 6px 10px rgb(98, 97, 97));
 }
 
+/* Hero Image */
+#hero img {
+  width: 450px;
+}
 
-
-
-
+#bottle img {
+  width: 30%;
+  display: inline;  
+}
 
 /* General Styles */
 body {
@@ -90,7 +95,6 @@ body {
   padding: 0;
   background: url(../images/Header-wood-450.png) no-repeat;
 }
-
 
 p, h1, h2, h3, h4, h5 {
   line-height: 20px;
