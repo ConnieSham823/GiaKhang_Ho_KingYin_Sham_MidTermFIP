@@ -239,6 +239,10 @@ footer {
   padding: 20px 0;
 }
 
+#logo {
+  width:20%;
+}
+
 #footer-contact-info {
   display: flex;
   align-items: center;
