@@ -171,15 +171,15 @@ object {
  /* Footer Styling */
 
 footer {
-  background: url(../images/Wood-footer.png);
-  color: white;
+  background: url(../images/Wood-footer.png) no-repeat;
   padding: 20px 0;
 }
 
 footer #logo {
-  width: 40%;
-  padding-left: 155px;
+  width: 
 }
+
+
 
 #footer-contact-info {
   display: flex;
@@ -198,13 +198,12 @@ footer #logo {
   display: block;
   padding: 10px 0 10px 0;
   text-align: center;
-  color: #ffffff;
+  color: #433415;
 }
 
 #footer-social-icons {
   display: block;
   align-items: center;
-  padding-left: 150px;
 }
 
 #footer-social-icons ul {
@@ -219,8 +218,8 @@ footer #logo {
 }
 
 #footer-social-icons ul img {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
 }
 
 #footer-contact {
