@@ -8,36 +8,59 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <title>Orbitz Maple Tea</title>
+    <title>Orbitz-Contact</title>
 </head>
 <body>
     <h1 class="hidden">Orbitz Maple Tea</h1>
-    <header class="grid-con">
-        <nav id="main-nav" class="col-start-1 col-end-4">
-            <h2 class="hidden">Main Navigation</h2>
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger">
-                <img src="images/Humburger-icon.png">
-            </label>
+     <!-- Main Nav -->
+      <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-span-full">
+                    <h2 class="hidden">Main Navigation</h2>
+                    <label id="button"><img src="images/Humburger-icon.png"></label>
+                    <div id="burger-con">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">Evolution</a></li>
+                            <li><a href="product.html">Maple Flavors</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                
+                <div id="logo" class="col-start-1 col-end-2 t-col-start-1 t-col-end-6">
+                    <img src="images/Orbitz-logo-300.png" alt="Orbitz logo">
+                </div>
 
-            <div id="burger-con">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">Evolution</a></li>
-                    <li><a href="product.html">Maple Flavors</a></li>
-                    <li><a href="index.html">Contact Us</a></li>
-                </ul>
-            </div>
-        </nav>
-        
-        <div id="logo" class="col-start-1 col-end-2">
-            <img src="images/Orbitz-logo-300.png" alt="Orbitz logo">
+                <div id="enjoy-now" class="enjoy-now col-start-4 col-end-5 t-col-start-11 t-col-end-13">
+                    <img src="images/Enjoy-now-icon.png" alt="Enjoy Now">
+                </div>
+        </header>
         </div>
 
-        <div id="enjoy-now" class="enjoy-now col-start-3 col-end-4">
-            <img src="images/Enjoy-now-icon.png" alt="Enjoy Now">
-        </div>
-</header>
+        <main>
+            <section id="contact-hero" class="full-width-grid-con">
+                <h2 class="hidden">Contact Us Image</h2>
+                <img
+                sizes="100vw"
+                srcset="
+                images/Contact-hero_qbdtrr_c_scale,w_190.png 190w,
+                images/Contact-hero_qbdtrr_c_scale,w_595.png 595w,
+                images/Contact-hero_qbdtrr_c_scale,w_853.png 853w,
+                images/Contact-hero_qbdtrr_c_scale,w_1079.png 1079w,
+                images/Contact-hero_qbdtrr_c_scale,w_1248.png 1248w,
+                images/Contact-hero_qbdtrr_c_scale,w_1408.png 1408w,
+                images/Contact-hero_qbdtrr_c_scale,w_1532.png 1532w,
+                images/Contact-hero_qbdtrr_c_scale,w_1666.png 1666w,
+                images/Contact-hero_qbdtrr_c_scale,w_1787.png 1787w,
+                images/Contact-hero_qbdtrr_c_scale,w_1905.png 1905w,
+                images/Contact-hero_qbdtrr_c_scale,w_2000.png 2000w"
+                src="Contact-hero_qbdtrr_c_scale,w_2000.png"
+                alt="Orbitz Contact Hero Image"
+                id="hero-contact">
+            </section>
+        </main>
+
     <section id="contact-hero-con" class="grid-con">
         <div id="contact-hero-heading-box" class="col-span-full">
             <h2 class="hero-img-h2"><span>Orbitz</span><br> Contact</h2>
@@ -67,36 +90,43 @@
             </form>
         </div>
     </section>
-    <footer class="footer-grid">
-        <div id="logo" class="footer-item box col-span-1 t-col-span-1 l-col-span-1">
-            <img src="images/Orbitz-logo_Final_Orbitz_flat_ORI.svg" alt="Orbitz logo">
-        </div>
-        <div id="footer-nav" class="footer-item">
-            <ul>
+    <footer id="footer-hero">
+        <div id="sticky-nav-foot" class="grid-con">
+            <div id="logo" class="col-span-full">
+                <img src="images/footer-logo.png" alt="Orbitz logo">
+            </div>
+            
+            <nav id="footer-nav" class="col-span-full">
+                <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Evolution</a></li>
                 <li><a href="#">Maple flavors</a></li>
                 <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+                </ul>
+            </nav>
         </div>
-        <div id="footer-social-icons" class="footer-item">
-            <h3>Follow Us</h3>
-            <ul>
-                <li><img src="images/fb.svg" alt="Facebook"></li>
-                <li><img src="images/ins.svg" alt="Instagram"></li>
-                <li><img src="images/x.svg" alt="X"></li>
-            </ul>
+
+        <section class="grid-con">
+        <div id="footer-social-icons" class="col-span-full t-col-start-2 t-col-end-6">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/ig.png" alt="Instagram"></a>
+            <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
         </div>
-        <div id="footer-contact" class="footer-item">
+        
+        <div id="footer-contact" class="col-span-full t-col-start-7 t-col-end-12">
             <p>
-                Toll Free: +1 877 201-1156<br>
-                FAX: +1 613 638 2217<br>
+                Toll Free:+1 877 201-1156 <br>
+                FAX:+1 613 2217 <br>
                 E-mail: orbitz@online.ca
             </p>
         </div>
-        <div id="footer-policy" class="footer-item-full">
-            <p id="price-policy">©2024 Orbitz. All Rights Reserved. Privacy Policy</p>
+        </section>  
+        
+        <div id="footer-policy" class="col-span-full">
+            <p id="privacy-policy">©2024 Orbitz. All Rights Reserved. Privacy Policy</p>
         </div>
+    </div>
     </footer>
     <script src="js/main.js"></script>
 </body>
