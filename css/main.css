@@ -5,7 +5,8 @@
      position: sticky;
      background: url(../images/Header-wood-450.png) no-repeat;
      margin-bottom: 20px;
-  }}
+  }
+}
 
 #main-nav label img{
   width: 50px;
@@ -59,6 +60,10 @@
 
 #main-nav ul li:last-child {
   margin-bottom: 8px;
+}
+
+#main-header-t {
+  display: none;
 }
 
 /* Header */
@@ -239,3 +244,78 @@ p {
     display: none;
   }
 
+  #main-header {
+    display: none;
+  }
+
+  #main-header-t {
+    display: flex;
+  }
+
+  #logo-t img {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    border-right: 1px solid #38393A;
+  }
+  
+  #burger-con-t {
+  padding-top: 30px;
+
+  }
+ 
+  #burger-con-t ul li {
+  list-style: none;
+  margin-right: 5px;
+  display: inline;
+}
+
+  #burger-con-t ul li a {
+    color: #38393A;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+
+  #burger-con-t ul li a:hover {
+    color: #E11F26;
+    font-size: larger;
+  }
+  
+  #enjoy-now-t img {
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 80px;
+    cursor: pointer;
+  }
+  
+  #enjoy-now-t img:hover {
+      transform: rotate(30deg);
+      transition: all 1s ease-in-out;
+      filter: drop-shadow(20px 6px 10px rgb(98, 97, 97));
+  }
+
+  #footer-hero #logo img {
+    width: 20%;
+  }
+
+  #footer-nav {
+    display: none;
+  }
+
+  #footer-nav-t ul li {
+    list-style: none;
+    display: inline;
+    text-align: center;
+  }
+
+  #footer-nav-t ul li a{
+    color: #38393A;
+    padding-right: 40px;
+  }
+
+  #footer-nav-t ul li a:hover {
+    color:#E11F26;
+    font-size: larger;
+  }
+}
