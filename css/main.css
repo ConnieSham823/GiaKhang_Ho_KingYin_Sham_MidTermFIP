@@ -1,8 +1,11 @@
 
 /* Main Nav & Hamburger*/
-#main-header{
-background: url(../images/Header-wood-450.png) no-repeat;
-}
+@media screen and (min-width: 400px) {
+  #sticky-nav-con {
+     position: sticky;
+     background: url(../images/Header-wood-450.png) no-repeat;
+     margin-bottom: 20px;
+  }}
 
 #main-nav label img{
   width: 50px;
@@ -78,7 +81,9 @@ background: url(../images/Header-wood-450.png) no-repeat;
 
 /* Hero Image */
 #hero img {
-  width: 450px;
+  grid-column: 1/-1;
+  grid-row: 1/1;
+  justify-self: center;
 }
 
 /* About Us */
@@ -94,11 +99,13 @@ background: url(../images/Header-wood-450.png) no-repeat;
 }
 
 #product img {
-  width: 400px;
+  width: 80%;
+  padding-left: 38px;
+  padding-bottom: 8px;
 }
 
 #icons-container h3 {
-  text-decoration: underline;
+   text-decoration: underline;
    font-size: 22px;
    background-color:#E11F26;
    color: #fff;
@@ -108,7 +115,7 @@ background: url(../images/Header-wood-450.png) no-repeat;
 }
 
 #icons-container object {
-  width: 70%;
+  width: 80%;
 }
 
 /* General Styles */
@@ -220,6 +227,15 @@ p {
    border-radius: 0;
 }
 
+/* Tablet Library Grid Styles */
+@media screen and (min-width: 768px) {
+  #sticky-nav-con {
+     position: sticky;
+     background: url(../images/Header-wood-1200.png) no-repeat;
+     margin-bottom: 20px;
+  }
 
-
+  #button {
+    display: none;
+  }
 

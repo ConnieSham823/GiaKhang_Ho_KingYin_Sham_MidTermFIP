@@ -15,7 +15,7 @@
      <!-- Main Nav -->
       <div id="sticky-nav-con">
         <header class="grid-con" id="main-header">
-                <nav id="main-nav" class="col-start-1 col-end-4 t-col-start-4 t-col-end-10">
+                <nav id="main-nav" class="col-span-full">
                     <h2 class="hidden">Main Navigation</h2>
                     <label id="button"><img src="images/Humburger-icon.png"></label>
                     <div id="burger-con">
@@ -28,7 +28,7 @@
                     </div>
                 </nav>
                 
-                <div id="logo" class="col-start-1 col-end-2 t-col-start-1 t-col-end-9">
+                <div id="logo" class="col-start-1 col-end-2 t-col-start-1 t-col-end-6">
                     <img src="images/Orbitz-logo-300.png" alt="Orbitz logo">
                 </div>
 
@@ -40,9 +40,25 @@
 
     <!-- Main Hero -->
         <main>
-             <section id="hero" class="col-span-full">
+             <section id="hero" class="full-width-grid-con">
                 <h2 class="hidden">Orbitz Maple Tea</h2>
-                <img src="images/Orbitz Bottle_pic_5.png" alt="Orbitz hero image">
+                <img
+                sizes="100vw"
+                srcset="
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_190.png 190w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_565.png 565w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_803.png 803w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1016.png 1016w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1171.png 1171w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1330.png 1330w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1465.png 1465w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1595.png 1595w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1726.png 1726w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1824.png 1824w,
+                images/Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1920.png 1920w"
+                src="Orbitz_Bottle_pic_5_cbwkyr_c_scale,w_1920.png"
+                alt="Orbitz Hero Image"
+                id="hero-main">
              </section>
             
             <section class="about-con box col-span-full" >
@@ -55,17 +71,19 @@
                     </section>
             <section class="product-con col-span-full">
                 <div id="product" class="grid-con">
-                    <div class="col-span-full">
+                    <div class="col-span-full t-col-start-1 t-col-end-5">
                         <img src="images/Orbitz-Mango-bottle.png" alt="Orbitz Mango"> 
                     </div>
-                    <div class="col-span-full">
+                    <div class="col-span-full t-col-start-5 t-col-end-9">
                         <img src="images/Orbitz-Lychee-bottle.png" alt="Orbitz Lychee">
                     </div>
-                    <div class="col-span-full">
+                    <div class="col-span-full t-col-start-9 t-col-end-13">
                         <img src="images/Orbitz-Peach-bottle.png" alt="Orbitz Peach">
                     </div>
                 </div>
             </section>
+
+            <hr>
 
             <section class="new-flavors col-span-full">
                 <h2>Orbitz NEW Flavors</h2>
@@ -77,7 +95,7 @@
                     as it is delicious.</p>
             </section>
 
-            <section id="icons-container" class="grid-con col-span-full">
+            <section id="icons-container"  class="grid-con col-span-full">
                 <div class="box col-span-full t-col-start-1 t-col-end-5"> 
                     <h3>Mango</h3>
                     <object id="mango" data="images/mango-svg.svg" type="image/svg+xml"></object>
