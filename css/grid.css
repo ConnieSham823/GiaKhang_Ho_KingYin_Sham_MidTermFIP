@@ -61,12 +61,6 @@ footer {
     padding-right: 16px;
   }
 
-  body{
-  background-image: url(../images/background-svg.svg);
-  background-repeat:no-repeat;
-  font-size: 20px;
-  }
-
   .t-col-auto {grid-column: auto;}
   .t-col-span-1	{grid-column: span 1 / span 1;}
   .t-col-span-2	{grid-column: span 2 / span 2;}

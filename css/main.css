@@ -1,34 +1,30 @@
-/* Main Nav */
 
-/* Hamburger*/
+/* Main Nav & Hamburger*/
+#main-header{
+background: url(../images/Header-wood-450.png) no-repeat;
+}
+
 #main-nav label img{
   width: 50px;
   height: 50px;
   cursor: pointer;
-}
-
-#main-nav, #burger-con {
-  margin-top: 8px;
-  margin-bottom: 8px;
-  display: none;
-}
-
-#main-nav input, #burger-con {
-  display: none;
-}
-
-#main-nav input:checked ~ #burger-con {
-  display: block;
-}
-
-#main-nav input:checked ~ label img {
-  transform: rotate(90deg);
-}
-
-#main-nav, #burger-con:hover {
+  transition: all .5s ease;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+#burger-con {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#main-nav:hover #burger-con {
   display: block;
+}
+
+#main-nav img:hover {
+  transform: rotate(90deg);
 }
 
 #main-nav ul li a:hover {
@@ -38,12 +34,14 @@
 
 #main-nav ul {
   list-style: none;
+  margin-top: 8px;
   padding: 0;
   margin: 0;
 }
 
 #main-nav ul li a {
   display: block;
+  padding: 10px 0px 10px 0px;
   text-align: start;
   color: #767070;
 }
@@ -51,7 +49,6 @@
 #main-nav ul li {
   border-bottom: 1px solid #38393A;
 }
-
 
 #main-nav ul li:first-child {
   border-top: 1px solid #38393A;
@@ -61,13 +58,14 @@
   margin-bottom: 8px;
 }
 
-
+/* Header */
 #logo img {
   width: 200px;
+  padding-top: 20px;
 }
 
 #enjoy-now img {
-  margin-top: 20px;
+  margin-top: 40px;
   width: 80px;
   cursor: pointer;
 }
@@ -78,30 +76,46 @@
     filter: drop-shadow(20px 6px 10px rgb(98, 97, 97));
 }
 
+/* Hero Image */
+#hero img {
+  width: 450px;
+}
+
+/* About Us */
 .about-con {
   margin-left: 20px;
   margin-right: 20px;
 }
 
+/* New Flavors */
 .new-flavors {
   margin-left: 20px;
   margin-right: 20px;
-}
-
-/* Hero Image */
-#hero img {
-  width: 450px;
 }
 
 #product img {
   width: 400px;
 }
 
+#icons-container h3 {
+  text-decoration: underline;
+   font-size: 22px;
+   background-color:#E11F26;
+   color: #fff;
+   border-radius: 30px;
+   padding-top: 10px;
+   padding-bottom: 4px;
+}
+
+#icons-container object {
+  width: 70%;
+}
+
 /* General Styles */
 body {
   margin: 0;
   padding: 0;
-  background: url(../images/Header-wood-450.png) no-repeat;
+  background-color:#EFE3BB;
 }
 
 p, h1, h2, h3, h4, h5 {
@@ -121,61 +135,16 @@ p {
   color: #38393A;
 }
 
-object {
-  width: 100%;
-}
-
-/* General Styles */
-body {
-    margin: 0;
-    padding: 0;
-    background-color: hwb(34 67% 13%);
-}
-
-
-/* General Rules */
-
-img embed, object, video, picture {
-    max-width: 100%;
- }
-
- p, h1, h2, h3, h4, h5 {
-    line-height: 20px;
- }
-
-#logo {
-    max-width: 100%;
- }
-
-h2 {
-   text-align: center;
-   font-size: 30px;
-   letter-spacing: -2px;
-   text-shadow: 0px 3px hsl(0, 0%, 100%);
-   margin-bottom: 15px;
-   color: rgb(67, 52, 21);
-}
-p {
-   color: #383636;
-}
-
-object {
-   width: 200%;
-}
-
-
-
-
- 
  /* Footer Styling */
 
-footer {
-  background: url(../images/Wood-footer.png) no-repeat;
-  padding: 20px 0;
+#footer-hero {
+  background: url(../images/Wood-footer-img_rfqsbv_c_scale\,w_1508.png) no-repeat;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-footer #logo img {
-  width: 30%;
+#footer-hero #logo img {
+  width: 40%;
 }
 
 #footer-nav ul {
@@ -215,18 +184,8 @@ footer #logo img {
   text-align: center;
 }
 
- /* Responsive Design */
- @media (max-width: 768px) {
-   #main-nav ul {
-     flex-direction: column;
-     align-items: center;
-   }
- 
-   #main-nav ul a {
-     padding: 10px 0;
-   }
- }
- 
+
+/* Contact Form */
  #contact-hero-form form {
    display: flex;
    flex-direction: column;

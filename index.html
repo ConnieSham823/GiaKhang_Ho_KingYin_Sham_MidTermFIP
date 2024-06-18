@@ -11,16 +11,13 @@
     <title>Orbitz</title>
 </head>
 <body>
-     <!-- Main Nav -->
     <h1 class="hidden">Orbitz Maple Tea</h1>
-        <header class="grid-con">
-                <nav id="main-nav" class="col-start-1 col-end-4">
+     <!-- Main Nav -->
+      <div id="sticky-nav-con">
+        <header class="grid-con" id="main-header">
+                <nav id="main-nav" class="col-start-1 col-end-4 t-col-start-4 t-col-end-10">
                     <h2 class="hidden">Main Navigation</h2>
-                    <input type="checkbox" id="hamburger">
-                    <label for="hamburger">
-                        <img src="images/Humburger-icon.png">
-                    </label>
-
+                    <label id="button"><img src="images/Humburger-icon.png"></label>
                     <div id="burger-con">
                         <ul>
                             <li><a href="index.html">Home</a></li>
@@ -31,17 +28,18 @@
                     </div>
                 </nav>
                 
-                <div id="logo" class="col-start-1 col-end-2">
+                <div id="logo" class="col-start-1 col-end-2 t-col-start-1 t-col-end-9">
                     <img src="images/Orbitz-logo-300.png" alt="Orbitz logo">
                 </div>
 
-                <div id="enjoy-now" class="enjoy-now col-start-4 col-end-5">
+                <div id="enjoy-now" class="enjoy-now col-start-4 col-end-5 t-col-start-11 t-col-end-13">
                     <img src="images/Enjoy-now-icon.png" alt="Enjoy Now">
                 </div>
         </header>
+    </div>
 
+    <!-- Main Hero -->
         <main>
-            <!-- Main Hero -->
              <section id="hero" class="col-span-full">
                 <h2 class="hidden">Orbitz Maple Tea</h2>
                 <img src="images/Orbitz Bottle_pic_5.png" alt="Orbitz hero image">
@@ -112,34 +110,43 @@
             </section>
         </main>
 
-        <footer class="footer-grid">
-            <div id="logo" class="footer-item box col-span-1 t-col-span-1 l-col-span-1">
-                <img src="images/footer-logo.png" alt="Orbitz logo">
-            </div>
-            <div id="footer-nav" class="footer-item">
-                <ul>
+        <footer id="footer-hero">
+            <div id="sticky-nav-foot" class="grid-con">
+                <div id="logo" class="col-span-full">
+                    <img src="images/footer-logo.png" alt="Orbitz logo">
+                </div>
+                
+                <nav id="footer-nav" class="col-span-full">
+                    <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Evolution</a></li>
                     <li><a href="#">Maple flavors</a></li>
                     <li><a href="contact.html">Contact Us</a></li>
-                </ul>
+                    </ul>
+                </nav>
             </div>
-            <div id="footer-social-icons" class="footer-item col-span-full">
+
+            <section class="grid-con">
+            <div id="footer-social-icons" class="col-span-full t-col-start-2 t-col-end-6">
                 <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
                 <a href="#"><img src="images/ig.png" alt="Instagram"></a>
                 <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
                 <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
             </div>
-            <div id="footer-contact" class="footer-item">
+            
+            <div id="footer-contact" class="col-span-full t-col-start-7 t-col-end-12">
                 <p>
                     Toll Free:+1 877 201-1156 <br>
                     FAX:+1 613 2217 <br>
                     E-mail: orbitz@online.ca
                 </p>
             </div>
-            <div id="footer-policy" class="footer-item-full">
+            </section>  
+            
+            <div id="footer-policy" class="col-span-full">
                 <p id="privacy-policy">©2024 Orbitz. All Rights Reserved. Privacy Policy</p>
             </div>
+        </div>
         </footer>
 
         <script src="js/main.js"></script>
