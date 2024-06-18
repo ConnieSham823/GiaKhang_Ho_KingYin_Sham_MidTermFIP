@@ -66,6 +66,10 @@
   display: none;
 }
 
+#footer-nav-t {
+  display: none;
+}
+
 /* Header */
 #logo img {
   width: 200px;
