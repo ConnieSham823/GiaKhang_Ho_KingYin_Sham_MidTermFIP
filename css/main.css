@@ -3,7 +3,7 @@
 @media screen and (min-width: 400px) {
   #sticky-nav-con {
      position: sticky;
-     background: url(../images/Header-wood-450.png) no-repeat;
+     background: url(../images/Header-wood-700.png) no-repeat;
      margin-bottom: 20px;
   }
 }
@@ -249,7 +249,7 @@ p {
 @media screen and (min-width: 768px) {
   #sticky-nav-con {
      position: sticky;
-     background: url(../images/Header-wood-1200.png) no-repeat;
+     background: url(../images/Header-wood-1280.png) no-repeat;
      margin-bottom: 20px;
   }
 
@@ -339,6 +339,12 @@ p {
 
 /* Desktop Library Grid Styles */
 @media screen and (min-width: 1200px) {
+  #sticky-nav-con {
+    position: sticky;
+    background: url(../images/Header-wood-1920.png) no-repeat;
+    margin-bottom: 20px;
+  }
+
   #burger-con-t {
     padding-top: 55px;
     padding-left: 30px;
