@@ -1,7 +1,8 @@
 # Orbitz Maple Bubble Tea
-GiaKhang_Ho_KingYin_Sham_MidTermFIP
+![Orbitz](images/Orbitz%20Bottle_pic_5.png)
 This repo is for 1056 Web Development - Mid Term.
 Brand Name: Orbitz
+By: GiaKhang Ho (Eric) & KingYin Sham (Connie)
 
 ## Installation
 
