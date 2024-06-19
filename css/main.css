@@ -159,7 +159,7 @@ p {
   padding-bottom: 20px;
 }
 
-#footer-hero #logo img {
+#footer-logo img {
   width: 40%;
 }
 
@@ -222,18 +222,27 @@ p {
 }
 
 #contact-hero-form input[type="submit"] {
-   padding: 12px 28px;
-   background: #9a2018;
-   color: #fff;
-   border: none;
-   transition: all 200ms ease-in;
-   width: 150px;
-   align-self: flex-end;
+  padding: 12px 28px;
+  background:#E11F26;
+  color: #fff;
+  border: none;
+  transition: all 200ms ease-in;
+  width: 150px;
+  cursor: pointer;
+  align-self: flex-end;
 }
 
 #contact-hero-form input[type="submit"]:hover {
-   background-color: #626262;
-   border-radius: 0;
+  background-color: #767070;
+  width: 300px;
+  border-radius: 5px;
+}
+
+#contact-hero-form input[value="Send"]:hover{
+  Color: #fff;
+  padding-right: 40px;
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 /* Tablet Library Grid Styles */
